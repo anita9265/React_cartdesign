@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navigation a {
+  color: white;
+  &:hover {
+    color: tomato;
+  }
+}
+.product_box img {
+  border: 1px solid rgb(201, 199, 199);
+}
+.p_content h4 {
+  font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0 1px;
+}
+.p_content .bg-silver {
+  color: gold;
+}
+.aside_con ul li {
+  &:hover {
+    color: orangered;
+    font-size: 17px;
+  }
+}
+.sticky-sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh; /* Full height */
+  overflow-y: auto; /* Scroll inside the sidebar*/
+}
+
+.c_btn a {
+  background-color: silver;
+  color: black;
+  &:hover {
+    background-color: rgb(152, 155, 155);
+    color: white;
+  }
+}

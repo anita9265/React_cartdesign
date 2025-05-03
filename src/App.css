@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.cart_btn1{
+  background-color: #FF9F00;
+}
+.cart_btn2{
+  background-color: #FB641B;
+}
+.right_side h4{
+  font-size: 20px;
+
+}
+/* Page1.css */
+
+/* Product Image Hover Effect */
+.product-image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.product-image {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-image:hover {
+  transform: scale(1.05);
+}
+
+/* Button Styling */
+.cart-btn a,
+.buy-btn a {
+  background-color: #ff6f61;
+  border-radius: 30px;
+  font-weight: 600;
+  padding: 15px 30px;
+  text-align: center;
+  width: 48%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cart-btn a:hover,
+.buy-btn a:hover {
+  background-color: #ff4d3a;
+}
+
+/* Product Details */
+.product-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.product-description {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.rating-container {
+  margin-bottom: 20px;
+}
+
+.product-rating {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ff6f61;
+}
+
+.star-icon {
+  font-size: 1.2rem;
+  color: #ffcc00;
+}
+
+.price-section {
+  margin-top: 20px;
+}
+
+.special-price-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.product-price {
+  font-size: 2rem;
+  color: #ff6f61;
+  font-weight: 700;
+}
+
+.product-info {
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.reviews-section {
+  margin-top: 40px;
+}
+
+.reviews-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.review-card {
+  background-color: #f9f9f9;
+}
+.aside_con ul li{
+  cursor: pointer;
+}
